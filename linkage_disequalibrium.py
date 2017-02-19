@@ -3,7 +3,7 @@ from scipy import stats
 import pylab as plt
 
 #read SNP matrix
-f = open("sample.txt",'rb')
+f = open("sample_data/linkage_disequalibrium_snp.txt",'rb')
 m1 = []
 for line in f:
     line = line.strip()
